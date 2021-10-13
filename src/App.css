@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+
+
+body{
+  background-color: #193498;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100vh;
+  padding: 5vw;
+
+  justify-content: space-between;
+}
+
+.App-header{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 50px;
+  background: #fff;
+  padding-top:5vw;
+  flex-basis: calc(30% - 1rem);
 }
 
-.App-link {
-  color: #61dafb;
+section{
+  flex-basis: calc(70% - 1rem);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  font-family: 'IM Fell English SC', serif;
+  color:#fff ;
+  font-size: 2vw;
+  background-color: #113CFC;
+  height: 15vw;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+form{
+  width: 100%;
+  height: 40vh;
+}
+
+form textarea{
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+
+  border: none;
+  border-radius: 15px;
+  padding: 1vw;
+
+  box-shadow: 1px 1px 20px #000;
+}
+
+
+form textarea:focus-visible{
+  outline: -webkit-focus-ring-color auto 0px;
 }
