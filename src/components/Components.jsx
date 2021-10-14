@@ -1,11 +1,15 @@
 import React from 'react';
 
+import App from '../App';
+
 function Components(){
+
+
     return(
-        <div>
-            body
-        </div>
+        <div></div>
     )
 }
+
+
 
 export default Components;
